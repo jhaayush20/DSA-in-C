@@ -16,6 +16,7 @@ void push(int value)
 
     top++;
     stackArr[top] = value;
+    cout << value << " pushed into stack" << endl;
 }
 
 int main()
